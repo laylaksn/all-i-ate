@@ -124,7 +124,6 @@ head {
 }
 
 .h2page1 {
-  color: rgb(126, 165, 46);
   font-style: italic;
   text-align: left;
   text-indent: 20px;
@@ -133,7 +132,6 @@ head {
 
 .servings {
   color:rgba(7, 7, 7, 0.953);
-  background-color: rgb(159, 218, 239);
   padding: 5px;
   margin: 1%;
   flex-direction: column;
@@ -265,7 +263,6 @@ h3 {
 }
 
 .button {
-  background-color: rgb(107, 156, 107);
   padding: 0px;
   border: none;
   flex-direction: column;

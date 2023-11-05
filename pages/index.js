@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title className="topTitle">CFG recipes</title>
+        <title className="topTitle">recipes</title>
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-          <h1 className="someHeading">CFG recipes</h1>
+          <h1 className="someHeading">all i ate</h1>
           <form class="search-form" action="#" method="get">
             <input type="text" placeholder="Ingredient, keyword..." />
             <button type="submit">Search</button>
@@ -65,15 +65,15 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <h2 className="typeOfRecipes">Vegan recipes</h2>
+          <h2 className="typeOfRecipes">Sweet Treats</h2>
           <div className={styles.description}>
             <div className={styles.recipePic}>
               <h3>
-                <Link href="/page1">Creamy vegan mushroom pasta</Link>{" "}
+                <Link href="/page1">Biscoff Cheesecake</Link>{" "}
               </h3>
               <Link href="/page1">
                 {" "}
-                <img className="recipeImage" src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/vegan_mushroom_pasta_28266_16x9.jpg" />
+                <img className="recipeImage" src="https://www.janespatisserie.com/wp-content/uploads/2020/04/IMG_9753_1-768x1152.jpg" />
             </Link>
             </div>
             <div className={styles.recipePic}>
