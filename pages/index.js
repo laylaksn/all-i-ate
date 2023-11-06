@@ -24,13 +24,13 @@ export default function Home() {
           <nav>
             <ul className="navbarUl">
               <li className="navbarLi">
-                <a className="navbara" href="/BiscoffCheesecake">Home</a>
+                <a className="navbara" >Home</a>
               </li>
               <li className="navbarLi">
-                <a className="navbara" href="/BiscoffCheesecake">A-Z Recipes</a>
+                <a className="navbara" >A-Z Recipes</a>
               </li>
               <li className="navbarLi">
-                <a className="navbara" href="/BiscoffCheesecake">Gallery</a>
+                <a className="navbara" >Gallery</a>
               </li>
             </ul>
           </nav>
