@@ -24,13 +24,13 @@ export default function Home() {
           <nav>
             <ul className="navbarUl">
               <li className="navbarLi">
-                <a className="navbara" >Home</a>
+                <Link href="index" className="navbara"> Home</Link>
               </li>
               <li className="navbarLi">
-                <a className="navbara" >A-Z Recipes</a>
+                <Link href="index" className="navbara" >A-Z Recipes</Link>
               </li>
               <li className="navbarLi">
-                <a className="navbara" >Gallery</a>
+                <Link href="index" className="navbara" >Gallery</Link>
               </li>
             </ul>
           </nav>
