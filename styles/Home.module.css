@@ -13,23 +13,17 @@
   overflow-x: auto;
   display: flex;
   white-space: nowrap;
-  gap: 20px;
-  }
-
-  .recipePic {
-    flex: 0 0 33.33%; /* Each recipe takes up one-third of the available space */
-    margin-right: 20px; /* Add some margin between recipes */
+  gap: 0px;
   }
 
 .recipePic {
+  flex: 0 0 30%; /* Each recipe takes up one-third of the available space */
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   align-items: center;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  padding: 15px;
+  /*max-width: var(--max-width);*/
+  padding: 0px;
   overflow: hidden;
   border-radius: 10px;
 }
