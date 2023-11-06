@@ -27,7 +27,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div>
           <Link href={"/"}>Back to home</Link>
-          <h2 className="recipePageTitle">Biscoff Cheesecake</h2>
+          <h2 className="recipePageTitle">Biscoff C</h2>
           <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/vegan_mushroom_pasta_28266_16x9.jpg" /> 
           <h4 className="numServings">Currently feeds {counter}</h4>
           <button onClick={handleClick} className="servings">Add serving</button>
