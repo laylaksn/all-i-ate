@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title className="topTitle">Recipes</title>
+        <title>Recipes</title>
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
@@ -24,13 +24,13 @@ export default function Home() {
           <nav>
             <ul className="navbarUl">
               <li className="navbarLi">
-                <a className="navbara" href="#">Home</a>
+                <a className="navbara" href="/BiscoffCheesecake">Home</a>
               </li>
               <li className="navbarLi">
-                <a className="navbara" href="#">A-Z Recipes</a>
+                <a className="navbara" href="/BiscoffCheesecake">A-Z Recipes</a>
               </li>
               <li className="navbarLi">
-                <a className="navbara" href="#">Gallery</a>
+                <a className="navbara" href="/BiscoffCheesecake">Gallery</a>
               </li>
             </ul>
           </nav>
