@@ -25,34 +25,55 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
+      <div>
+          <nav>
+            <ul className="navbarUl">
+              <li className="navbarLi">
+                <Link href="index" className="navbara"> Home</Link>
+              </li>
+              <li className="navbarLi">
+                <Link href="index" className="navbara" >A-Z Recipes</Link>
+              </li>
+              <li className="navbarLi">
+                <Link href="index" className="navbara" >Gallery</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div>
-          <Link href={"/"}>Back to home</Link>
           <h2 className="recipePageTitle">Biscoff Cheesecake</h2>
-          <img src="https://www.janespatisserie.com/wp-content/uploads/2020/04/IMG_9753_1-768x1152.jpg" /> 
-          <p>Always a winner for a dessert and lots of different ways to decorate! Best if let to set overnight.</p>
+          <img src="BiscoffCheesecake.png" /> 
+          <p className="recipeSummary">Always a winner for a dessert and lots of different ways to decorate! I first made this for Sions birthday 2021, after knowing him for 3 weeks! Its also a Jac Thomas favourite.</p>
           <h3 className="numServings">Serves 12</h3>
-          <h4 className="ingredList">Ingredients:</h4>
-          <ul className="ingpage1">
-            Biscuit Base:
+          <h4 className="ingredTitle">Ingredients:</h4>
+          <h5 className="recipeStep">Base</h5>
+          <ul className = "ingredList">
             <li>300g Biscoff biscuits</li>
             <li>125g butter</li>
-            Cheesecake Filling
+          </ul>
+          <h5 className="recipeStep">Cheesecake Filling</h5>
+          <ul className = "ingredList">
             <li>200g white chocolate</li>
             <li>500g full-fat cream cheese (room temp)</li>
             <li>75g icing sugar</li>
             <li>1 tsp vanilla</li>
             <li>300ml double cream</li>
             <li>200g Biscoff spread</li>
-            decoration
+          </ul>
+          <h5 className="recipeStep">Decoration</h5>
+          <ul className = "ingredList">
             <li>More biscoff, or some white chocolate, crumbled up biscuits...</li>
             <li>Or whipping 150ml double cream and 2 tbsp icing sugar and pipe swirls</li>
           </ul>
-          <h4 className="ingredList">Recipe:</h4>
-          <ul className = "ingpage1">
+          <h4 className="ingredTitle">Recipe:</h4>
+          <h5 className="recipeStep">Base</h5>
+          <ul className = "ingredList">
             <li>Blitz your biscuits to a fine crumb in a food processor.</li>
             <li>Add in your melted butter, and mix again.</li>
             <li>Press into the bottom of a 20cm/8inch deep springform tin.</li>
-            Cheesecake filling
+          </ul>
+          <h5 className="recipeStep">Cheesecake Filling</h5>
+          <ul className ="ingredList">
             <li>Melt your white chocolate until smooth - I do this in the microwave. Leave it to cool for about 10 minutes.</li>
             <li>Add your cream cheese, icing sugar and vanilla to a bowl and whisk until smooth.</li>
             <li>Add in your cooled white chocolate, and whisk again.</li>
@@ -60,6 +81,18 @@ export default function Home() {
             <li>Once thick, dollop in your biscoff spread - fold through with a spatula briefly so it swirls through the mixture!</li>
             <li>Spread the mixture onto your base, making sure to fill the tin properly around the edges to avoid any gaps.</li>
             <li>Set the cheesecake in the fridge for a minimum of 6-8 hours, but preferably overnight.</li>
+            </ul>
+          <h5 className="recipeStep">Decoration</h5>
+          <ul className ="ingredList">
+          <li>Decorate however!</li>
+          </ul>
+          <h4 className="ingredTitle">Extra Notes:</h4>
+          <ul className = "ingredList">
+            <li>If you want to use less biscuits, you will need less butter. This does make quite a thick base.</li>
+            <li>Lasts 3 days in the fridge.</li>
+            <li>Must use full-fat ingredients to help it set, and make sure the cream cheese is at room temp.</li>
+            <li>Can use crunchy or smooth spread.</li>
+            <li>If you want a smaller cheesecake, half the mixture and use a 6inch tin.</li>
           </ul>
         </div>
       </main>

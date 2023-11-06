@@ -24,13 +24,13 @@ export default function Home() {
           <nav>
             <ul className="navbarUl">
               <li className="navbarLi">
-                <Link href="index" className="navbara"> Home</Link>
+                <Link href="/index" className="navbara"> Home</Link>
               </li>
               <li className="navbarLi">
-                <Link href="index" className="navbara" >A-Z Recipes</Link>
+                <Link href="/AZRecipes" className="navbara" >A-Z Recipes</Link>
               </li>
               <li className="navbarLi">
-                <Link href="index" className="navbara" >Gallery</Link>
+                <Link href="/gallery" className="navbara" >Gallery</Link>
               </li>
             </ul>
           </nav>
@@ -46,39 +46,36 @@ export default function Home() {
             </div>
             <div className={styles.recipePic}>
               <h3><Link href="/VanillaCelebrationCake">Vanilla Celebration Cake</Link></h3>
-              <Link href="/page2">
+              <Link href="/VanillaCelebrationCake">
                 <img className="recipeImage" src="celebrationcake.jpg" alt="Celebration Cake"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/page1">Millionaires Shortbread</Link></h3>
-              <Link href="/page1">
+              <h3><Link href="/MillionairesShortbread">Millionaires Shortbread</Link></h3>
+              <Link href="/MillionairesShortbread">
                 <img className="recipeImage" src="millionairesshortbread.jpg" alt="Millionaires Shortbread"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/page1">Coffee Cake</Link></h3>
-              <Link href="/page1">
+              <h3><Link href="/CoffeeCake">Coffee Cake</Link></h3>
+              <Link href="/CoffeeCake">
                 <img className="recipeImage" src="coffeecake.jpg" alt="Coffee Cake"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/page1">Key Lime Cheesecake</Link></h3>
-              <Link href="/page1">
+              <h3><Link href="/KeyLimeCheesecake">Key Lime Cheesecake</Link></h3>
+              <Link href="/KeyLimeCheesecake">
                 <img className="recipeImage" src="keylimecheesecake.jpg" alt="Keylime Cheesecake"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3>Millionaires Shortbread</h3>
-              <Link href="/page1">
-                <img className="recipeImage" src="coffeecake.jpg" alt="Coffee Cake" />
-              </Link>
+              <h3>Cinnamon Rolls</h3>
             </div>
             <div className={styles.recipePic}>
-              <h3>banoffee pie</h3>
+              <h3>Banoffee Pie</h3>
             </div>
             <div className={styles.recipePic}>
-              <h3>banana bread</h3>
+              <h3>Chocolate cupcakes</h3>
             </div>
           </div>
         </div>
@@ -86,20 +83,20 @@ export default function Home() {
           <h2 className="typeOfRecipes">Fave Dinners</h2>
           <div className={styles.description}>
             <div className={styles.recipePic}>
-              <h3><Link href="/page1">Lentil Soup</Link></h3>
-              <Link href="/page1">
+              <h3><Link href="/LentilSoup">Lentil Soup</Link></h3>
+              <Link href="/LentilSoup">
                 <img className="recipeImage" src="lentilsoup.jpg" alt="Lentil Soup" />
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/page2">Root Vegetable Traybake</Link></h3>
-              <Link href="/page2">
+              <h3><Link href="/RootVegTraybake">Root Vegetable Traybake</Link></h3>
+              <Link href="/RootVegTraybake">
                 <img className="recipeImage" src="rootvegtraybake.jpg"  alt="Root Vegetable Traybake" />
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/page3">Sweet Potato Mac and Cheese</Link></h3>
-              <Link href="/page3">
+              <h3><Link href="/SweetPotatoMacAndCheese">Sweet Potato Mac and Cheese</Link></h3>
+              <Link href="/SweetPotatoMacAndCheese">
               <img className="recipeImage" src="sweetpotatomacncheese.jpg" alt="Sweet Potato Mac and Cheese" />
               </Link>
             </div>

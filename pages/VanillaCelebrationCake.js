@@ -3,10 +3,19 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
+import { useState} from 'react';
 
 const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
+    const [counter, setCounter] = useState(4);
+      //useState(0) indicates counter starting point
+      const handleClick = () => {
+        setCounter(counter + 1);
+      };
+      const minusClick = () => {
+        setCounter(counter - 1);
+      };
+
   return (
     <>
       <Head>
@@ -16,12 +25,48 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
+      <div>
+          <nav>
+            <ul className="navbarUl">
+              <li className="navbarLi">
+                <Link href="index" className="navbara"> Home</Link>
+              </li>
+              <li className="navbarLi">
+                <Link href="index" className="navbara" >A-Z Recipes</Link>
+              </li>
+              <li className="navbarLi">
+                <Link href="index" className="navbara" >Gallery</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div>
-          <Link href={"/"}>Back to home</Link>
-          <h2 className="recipePageTitle">
-          Vanilla Celebration Cake
-          </h2>
-          <h3 className="ingList">...Coming soon...</h3>
+          <h2 className="recipePageTitle">Vanilla Celebration Cake</h2>
+          <img src="celebrationcake.jpg" /> 
+          <p className="recipeSummary">I made this big boy for Nicola and Marks engagement July 2023! Lovely 4 tier cake.</p>
+          <h3 className="numServings">Serves a lot</h3>
+          <h4 className="ingredTitle">Ingredients:</h4>
+          <h5 className="recipeStep">Cake</h5>
+          <ul className = "ingredList">
+            <li>1</li>
+          </ul>
+          <h5 className="recipeStep">Icing</h5>
+          <ul className = "ingredList">
+            <li>1</li>
+          </ul>
+          <h4 className="ingredTitle">Recipe:</h4>
+          <h5 className="recipeStep">Cake</h5>
+          <ul className = "ingredList">
+            <li>1</li>
+          </ul>
+          <h5 className="recipeStep">Icing</h5>
+          <ul className = "ingredList">
+            <li>1</li>
+          </ul>
+          <h4 className="ingredTitle">Extra Notes:</h4>
+          <ul className = "ingredList">
+            <li>1</li>
+          </ul>
         </div>
       </main>
     </>

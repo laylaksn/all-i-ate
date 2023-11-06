@@ -142,7 +142,6 @@ head {
 .numServings {
   color: LightSlateGrey;
   font-size: 20px;
-  font-style: italic;
   padding-bottom: 10px;
 }
 
@@ -233,23 +232,29 @@ img {
   padding-bottom: 20px;
 }
 
-h3 {
-  font-family:sans-serif ;
-  text-align: center;
-  font-size: 20px;
-  color: red;
-  padding: 10px;
-  width: fit-content;
-  
+.recipeSummary {
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.ingredTitle {
+  font-size: larger;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.recipeStep {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: smaller;
 }
 
 .ingredList {
-  padding: 10px;
-  border-radius: 15px;
-}
-
-.ingpage1 {
-  padding: 15px;
+  font-size: smaller;
+  padding-left: 30px;
+  padding-top: 2px;
 }
 
 .suggest{
@@ -264,8 +269,6 @@ h3 {
   flex-direction: column;
   width: 100%;
 }
-
-  
 
 .button-container {
   text-align: center;
@@ -389,11 +392,6 @@ transform: scale(1.02);
   width: fit-content;
 }
 
-h4{
-  padding-top: 15px;
-  font-size: 25px;
-  color: rgb(63, 64, 63);
-}
 
 h6{
  padding-top: 15px;
@@ -406,3 +404,19 @@ h6{
 }
 
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the column width as needed */
+  gap: 10px; /* Adjust the gap between photos */
+}
+
+.photo {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
