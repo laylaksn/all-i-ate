@@ -51,7 +51,7 @@ export default function Home() {
           <ul className = "ingpage1">
             <li>Blitz your biscuits to a fine crumb in a food processor.</li>
             <li>Add in your melted butter, and mix again.</li>
-            <li>Press into the bottom of a 20cm/8" deep springform tin.</li>
+            <li>Press into the bottom of a 20cm/8inch deep springform tin.</li>
             Cheesecake filling
             <li>Melt your white chocolate until smooth - I do this in the microwave. Leave it to cool for about 10 minutes.</li>
             <li>Add your cream cheese, icing sugar and vanilla to a bowl and whisk until smooth.</li>
