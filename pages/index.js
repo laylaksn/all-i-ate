@@ -102,6 +102,17 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div>
+          <h2 className="typeOfRecipes">Healthzone</h2>
+          <div className={styles.description}>
+            <div className={styles.recipePic}>
+              <h3><Link href="/LentilSoup">Ginger and Turmeric Shots</Link></h3>
+              <Link href="/SweetPotatoMacAndCheese">
+              <img className="recipeImage" src="gingershots.jpg" alt="Ginger Shots" />
+              </Link>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );

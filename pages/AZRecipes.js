@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 const AZRecipes = () => {
   const recipes = [
     { name: 'Biscoff Cheesecake', link: '/BiscoffCheesecake' },
+    { name: 'Ginger Shots', link: '/GingerShots'},
     { name: 'Lentil Soup', link: '/LentilSoup' },
     { name: 'Millionaires Shortbread', link: '/MillionairesShortbread' },
     { name: 'Root Veg Traybake', link: '/RootVegTraybake'},

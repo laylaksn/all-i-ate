@@ -13,7 +13,8 @@ const Gallery = () => {
     'lentilsoup.jpg',
     'millionairesshortbread.jpg',
     'sweetpotatomacncheese.jpg',
-    'banofeepie.png',
+    'banoffeepie.png',
+    'gingershots.jpg',
     // Add more photo URLs here
   ];
 
