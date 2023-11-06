@@ -29,7 +29,7 @@ export default function Home() {
           <Link href={"/"}>Back to home</Link>
           <h2 className="recipePageTitle">Millionaires Shortbread</h2>
           <img src="https://www.janespatisserie.com/wp-content/uploads/2020/04/IMG_9753_1-768x1152.jpg" /> 
-          <p>There's a million ways to serve these. Can feather with dark or white chocolate, do christmas decorations etc..
+          <p>Theres a million ways to serve these. Can feather with dark or white chocolate, do christmas decorations etc..
             Can also make it with caramel base and cover top wwith choc, then turn over a cover bottom with choc. 
           </p>
           <h3 className="numServings">Serves 12</h3>
