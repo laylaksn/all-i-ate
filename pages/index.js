@@ -45,32 +45,32 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/page2">Vanilla Celebration Cake</Link></h3>
+              <h3><Link href="/VanillaCelebrationCake">Vanilla Celebration Cake</Link></h3>
               <Link href="/page2">
                 <img className="recipeImage" src="celebrationcake.jpg" alt="Celebration Cake"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/page4">Millionaires Shortbread</Link></h3>
-              <Link href="/page4">
+              <h3><Link href="/page1">Millionaires Shortbread</Link></h3>
+              <Link href="/page1">
                 <img className="recipeImage" src="millionairesshortbread.jpg" alt="Millionaires Shortbread"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/page4">Coffee Cake</Link></h3>
-              <Link href="/page4">
+              <h3><Link href="/page1">Coffee Cake</Link></h3>
+              <Link href="/page1">
                 <img className="recipeImage" src="coffeecake.jpg" alt="Coffee Cake"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/page4">Key Lime Cheesecake</Link></h3>
-              <Link href="/page4">
+              <h3><Link href="/page1">Key Lime Cheesecake</Link></h3>
+              <Link href="/page1">
                 <img className="recipeImage" src="keylimecheesecake.jpg" alt="Keylime Cheesecake"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
               <h3>Millionaires Shortbread</h3>
-              <Link href="/page4">
+              <Link href="/page1">
                 <img className="recipeImage" src="coffeecake.jpg" alt="Coffee Cake" />
               </Link>
             </div>
