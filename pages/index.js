@@ -34,6 +34,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+          <p className="recipeSummary">Sharing all our favourite recipes...</p>
         </div>
         <div>
           <h2 className="typeOfRecipes">Sweet Treats</h2>
