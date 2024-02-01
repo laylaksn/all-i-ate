@@ -50,10 +50,10 @@ export default function Home() {
           <h4 className="ingredTitle">Ingredients:</h4>
           <h5 className="recipeStep">Cake</h5>
           <ul className = "ingredList">
-            <li>250g unsalted butter</li>
-            <li>250g caster sugar</li>
-            <li>5 medium eggs</li>
-            <li>1 tsp vanilla extract</li>
+            <li>{125*counter}g unsalted butter</li>
+            <li>{125*counter}g caster sugar</li>
+            <li>{2.5*counter} medium eggs</li>
+            <li>{0.5*counter} tsp vanilla extract</li>
           </ul>
           <h5 className="recipeStep">Icing</h5>
           <ul className = "ingredList">
@@ -62,9 +62,9 @@ export default function Home() {
           <h4 className="ingredTitle">Recipe:</h4>
           <h5 className="recipeStep">Cake</h5>
           <ul className = "ingredList">
-            <li>Preheat your oven to 180C/160C fan and line two 8"/20cm tins with parchment paper, and leave to the side. </li>
+            <li>Preheat your oven to 180C/160C fan and line {counter} 8"/20cm tins with parchment paper, and leave to the side. </li>
             <li>Beat together your butter and sugar for 3-4 minutes until light and fluffy. Try not to over beat.</li>
-            <li>Split the cake mix between the two tins. I weigh it to make sure its even - each mix should weigh 500g each (roughly).</li>
+            <li>Split the cake mix between the two tins. I weigh it to make sure its even - each mix should weigh {250*counter}g each (roughly).</li>
             <li>Once in the tins, bake in the oven for 30-35 minutes, or until baked through. I check my cake is baked by using a skewer, and listening carefully to see if it bubbles.</li>
             <li>Once baked, leave to cool in the tin for 10 minutes, and then transfer to a wire rack to finish cooling. </li>
           </ul>
