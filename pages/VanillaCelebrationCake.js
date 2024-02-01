@@ -44,7 +44,7 @@ export default function Home() {
           <h2 className="recipePageTitle">Vanilla Celebration Cake</h2>
           <img src="celebrationcake.jpg" /> 
           <p className="recipeSummary">I made this big boy for Nicola and Mark&apos;s engagement July 2023! Suitable for a celebration where you have lots of guests.</p>
-          <h3 className="numServings">{counter} layer cake</h3>
+          <h3 className="numServings">{counter} layer cake, serves {counter*6}</h3>
           <button onClick={handleClick} className="servings">Add a layer</button>
           <button onClick={minusClick} className="servings">Minus a layer</button>
           <h4 className="ingredTitle">Ingredients:</h4>
@@ -57,14 +57,17 @@ export default function Home() {
           </ul>
           <h5 className="recipeStep">Icing</h5>
           <ul className = "ingredList">
-            <li></li>
+            <li>{100*counter + 25*counter}g unsalted butter</li>
+            <li>{200*counter + 50*counter}g icing sugar</li>
+            <li>{0.5*counter} tsp vanilla extract</li>
+            <li>{(counter-1)*200}g jam (optional)</li>
           </ul>
           <h4 className="ingredTitle">Recipe:</h4>
           <h5 className="recipeStep">Cake</h5>
           <ul className = "ingredList">
             <li>Preheat your oven to 180C/160C fan and line {counter} 8&apos;&apos;/20cm tins with parchment paper, and leave to the side. </li>
             <li>Beat together your butter and sugar for 3-4 minutes until light and fluffy. Try not to over beat.</li>
-            <li>Split the cake mix between the two tins. I weigh it to make sure its even - each mix should weigh {250*counter}g each, roughly.</li>
+            <li>Split the cake mix between the {counter} tins. I weigh it to make sure its even - each mix should weigh {250*counter}g each, roughly.</li>
             <li>Once in the tins, bake in the oven for 30-35 minutes, or until baked through. I check my cake is baked by using a skewer, and listening carefully to see if it bubbles.</li>
             <li>Once baked, leave to cool in the tin for 10 minutes, and then transfer to a wire rack to finish cooling. </li>
           </ul>
@@ -82,7 +85,8 @@ export default function Home() {
           </ul>
           <h4 className="ingredTitle">Extra Notes:</h4>
           <ul className = "ingredList">
-            <li>You could make less buttercream and have a &apos;naked&apos; cake. Equally this looks quite nice as a semi-naked cake where you do basically just the crumb coat.</li>
+            <li>You could make less buttercream and have a &apos;naked&apos; cake. To do this only use {100*counter}g butter and {200*counter}g icing sugar for the buttercream.</li>
+            <li>Equally this looks quite nice as a semi-naked cake where you do basically just the crumb coat.</li>
             <li>I decorated Nicola and Mark&apos;s cake with forest fruits and mint leaves.</li>
             <li>Cake lasts 3 days at room temperature in a box.</li>
           </ul>
