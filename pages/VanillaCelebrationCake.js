@@ -64,7 +64,7 @@ export default function Home() {
           <ul className = "ingredList">
             <li>Preheat your oven to 180C/160C fan and line {counter} 8"/20cm tins with parchment paper, and leave to the side. </li>
             <li>Beat together your butter and sugar for 3-4 minutes until light and fluffy. Try not to over beat.</li>
-            <li>Split the cake mix between the two tins. I weigh it to make sure its even - each mix should weigh {250*counter}g each (roughly).</li>
+            <li>Split the cake mix between the two tins. I weigh it to make sure its even - each mix should weigh {250*counter}g each, roughly.</li>
             <li>Once in the tins, bake in the oven for 30-35 minutes, or until baked through. I check my cake is baked by using a skewer, and listening carefully to see if it bubbles.</li>
             <li>Once baked, leave to cool in the tin for 10 minutes, and then transfer to a wire rack to finish cooling. </li>
           </ul>
