@@ -64,6 +64,12 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.recipePic}>
+              <h3><Link href="/CaramelCake">Caramel Cake</Link></h3>
+              <Link href="/CaramelCake">
+                <img className="recipeImage" src="caramelcake.jpg" alt="Caramel Cake"/>
+              </Link>
+            </div>
+            <div className={styles.recipePic}>
               <h3><Link href="/KeyLimeCheesecake">Key Lime Cheesecake</Link></h3>
               <Link href="/KeyLimeCheesecake">
                 <img className="recipeImage" src="keylimecheesecake.jpg" alt="Keylime Cheesecake"/>
