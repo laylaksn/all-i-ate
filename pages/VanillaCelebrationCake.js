@@ -7,7 +7,7 @@ import { useState} from 'react';
 
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
-    const [counter, setCounter] = useState(4);
+    const [counter, setCounter] = useState(3);
       //useState(0) indicates counter starting point
       const handleClick = () => {
         setCounter(counter + 1);
@@ -43,29 +43,48 @@ export default function Home() {
         <div>
           <h2 className="recipePageTitle">Vanilla Celebration Cake</h2>
           <img src="celebrationcake.jpg" /> 
-          <p className="recipeSummary">I made this big boy for Nicola and Marks engagement July 2023! Lovely 4 tier cake.</p>
-          <h3 className="numServings">Serves a lot</h3>
+          <p className="recipeSummary">I made this big boy for Nicola and Mark's engagement July 2023! Suitable for a celebration where you have lots of guests.</p>
+          <h3 className="numServings">{counter} layer cake</h3>
+          <button onClick={handleClick} className="servings">Add a layer</button>
+          <button onClick={minusClick} className="servings">Minus a layer</button>
           <h4 className="ingredTitle">Ingredients:</h4>
           <h5 className="recipeStep">Cake</h5>
           <ul className = "ingredList">
-            <li>1</li>
+            <li>250g unsalted butter</li>
+            <li>250g caster sugar</li>
+            <li>5 medium eggs</li>
+            <li>1 tsp vanilla extract</li>
           </ul>
           <h5 className="recipeStep">Icing</h5>
           <ul className = "ingredList">
-            <li>1</li>
+            <li></li>
           </ul>
           <h4 className="ingredTitle">Recipe:</h4>
           <h5 className="recipeStep">Cake</h5>
           <ul className = "ingredList">
-            <li>1</li>
+            <li>Preheat your oven to 180C/160C fan and line two 8"/20cm tins with parchment paper, and leave to the side. </li>
+            <li>Beat together your butter and sugar for 3-4 minutes until light and fluffy. Try not to over beat.</li>
+            <li>Split the cake mix between the two tins. I weigh it to make sure its even - each mix should weigh 500g each (roughly).</li>
+            <li>Once in the tins, bake in the oven for 30-35 minutes, or until baked through. I check my cake is baked by using a skewer, and listening carefully to see if it bubbles.</li>
+            <li>Once baked, leave to cool in the tin for 10 minutes, and then transfer to a wire rack to finish cooling. </li>
           </ul>
           <h5 className="recipeStep">Icing</h5>
           <ul className = "ingredList">
-            <li>1</li>
+            <li>Make sure the butter is at room temperature when starting to make the buttercream.</li>
+            <li>Beat the butter on its own for 10 minutes using the paddle attachment. Beating it for so long helps makes the color whiter rather than yellow-y.</li>
+            <li>Add the icing sugar in 1/2 at a time, and beat fully before adding any more in. </li>
+            <li>Add in the vanilla and beat again for 3-4 minutes.</li>
+            <li>Pipe or spread buttercream onto the first layer of cake, and top with some jam.</li>
+            <li>Add the next sponge, and repeat until you're on the last layer.</li>
+            <li>Do a crumb coat around the whole cake and then put in the fridge to chill. Crumb coat layer doesn't have to be too thick.</li>
+            <li>Once chilled and not sticky you can do the next layer of icing, smoothing it all around.</li>
+            <li>Decorate however you wish!</li>          
           </ul>
           <h4 className="ingredTitle">Extra Notes:</h4>
           <ul className = "ingredList">
-            <li>1</li>
+            <li>You could make less buttercream and have a 'naked' cake. Equally this looks quite nice as a semi-naked cake where you do basically just the crumb coat.</li>
+            <li>I decorated Nicola and Mark's cake with forest fruits and mint leaves.</li>
+            <li>Cake lasts 3 days at room temperature in a box.</li>
           </ul>
         </div>
       </main>

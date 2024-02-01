@@ -43,7 +43,7 @@ export default function Home() {
         <div>
           <h2 className="recipePageTitle">Biscoff Cheesecake</h2>
           <img src="BiscoffCheesecake.png" /> 
-          <p className="recipeSummary">Always a winner for a dessert and lots of different ways to decorate! I first made this for Sions birthday 2021, after knowing him for 3 weeks! Its also a Jac Thomas favourite.</p>
+          <p className="recipeSummary">This is always a winner for a dessert, really easy to make and lots of different ways to decorate! I first made this for Sion's birthday 2021, 3 weeks after we met! It's also a Jac Thomas favourite.</p>
           <h3 className="numServings">Serves 12</h3>
           <h4 className="ingredTitle">Ingredients:</h4>
           <h5 className="recipeStep">Base</h5>

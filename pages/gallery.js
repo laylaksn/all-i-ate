@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from "@/styles/Home.module.css";
 
 const Gallery = () => {
-  // Replace this with your list of photo URLs
+  // list of photos
   const photos = [
     'biscoffcheesecake.png',
     'rootvegtraybake.jpg',
