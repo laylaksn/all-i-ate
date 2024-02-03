@@ -43,7 +43,7 @@ export default function Home() {
         <div>
           <h2 className="recipePageTitle">Vanilla Celebration Cake</h2>
           <img src="celebrationcake.jpg" className="topRecipeImage" alt="Top Recipe Image"/> 
-          <p className="recipeSummary">I made this big boy for Nicola and Mark&apos;s engagement July 2023! Suitable for a celebration where you have lots of guests.</p>
+          <p className="recipeSummary">I made this big boy for Nicola and Mark&apos;s engagement July 2023! A couple slices even travelled well to Aus.</p>
           <h3 className="numServings">{counter} layer cake, serves {counter*6}</h3>
           <button onClick={handleClick} className="servings">Add a layer</button>
           <button onClick={minusClick} className="servings">Minus a layer</button>

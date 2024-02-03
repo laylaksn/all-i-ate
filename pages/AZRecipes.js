@@ -35,7 +35,7 @@ const AZRecipes = () => {
         </ul>
       </nav>
       <h2 className="recipePageTitle">A-Z Recipes</h2>
-      <ul className="recipeList">
+      <ul className="numServings">
         {recipes.map((recipe, index) => (
           <li key={index}>
             <Link href={recipe.link}>{recipe.name}</Link>
