@@ -5,11 +5,16 @@ import styles from "@/styles/Home.module.css";
 const AZRecipes = () => {
   const recipes = [
     { name: 'Biscoff Cheesecake', link: '/BiscoffCheesecake' },
-    { name: 'Ginger Shots', link: '/GingerShots'},
-    { name: 'Lentil Soup', link: '/LentilSoup' },
+    { name: 'Caramel Cake', link: '/ComingSoon'},
+    { name: 'Coffee Cake', link: '/ComingSoon'},
+    { name: 'Ginger Shots', link: '/ComingSoon'},
+    { name: 'Keylime Cheesecake', link: '/ComingSoon'},
+    { name: 'Lentil Soup', link: '/ComingSoon' },
     { name: 'Millionaires Shortbread', link: '/MillionairesShortbread' },
-    { name: 'Root Veg Traybake', link: '/RootVegTraybake'},
-    { name: 'Sweet Potato Mac and Cheese', link: '/SweetPotatoMacAndCheese'},
+    { name: 'Pancakes', link: '/ComingSoon'},
+    { name: 'Root Veg Traybake', link: '/ComingSoon'},
+    { name: 'Smoothie Bowls', link: '/ComingSoon'},
+    { name: 'Sweet Potato Mac and Cheese', link: '/ComingSoon'},
     { name: 'Vanilla Celebration Cake', link: '/VanillaCelebrationCake'},
     // Add more recipes here
   ];
