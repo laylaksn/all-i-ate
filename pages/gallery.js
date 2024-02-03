@@ -11,10 +11,18 @@ const Gallery = () => {
     'keylimecheesecake.jpg',
     'coffeecake.jpg',
     'lentilsoup.jpg',
+    'smoothiebowl.jpg',
     'millionairesshortbread.jpg',
+    'biscoffcheesecake2.jpg',
     'sweetpotatomacncheese.jpg',
-    'banoffeepie.png',
+    'caramelcake.jpg',
     'gingershots.jpg',
+    'millionairesshortbread2.jpg',
+    'pancakes.jpg',
+    'biscoffcheesecake3.jpg',
+    'smoothiebowl2.jpg',
+    'fruitbasket.jpg',
+    'millionairesshortbread3',
     // Add more photo URLs here
   ];
 
