@@ -64,25 +64,22 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/CaramelCake">Caramel Cake</Link></h3>
+              <h3><Link href="/ComingSoon">Caramel Cake</Link></h3>
               <Link href="/CaramelCake">
                 <img className="recipeImage" src="caramelcake.jpg" alt="Caramel Cake"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3><Link href="/KeyLimeCheesecake">Key Lime Cheesecake</Link></h3>
+              <h3><Link href="/ComingSoon">Key Lime Cheesecake</Link></h3>
               <Link href="/KeyLimeCheesecake">
                 <img className="recipeImage" src="keylimecheesecake.jpg" alt="Keylime Cheesecake"/>
               </Link>
             </div>
             <div className={styles.recipePic}>
-              <h3>Cinnamon Rolls</h3>
-            </div>
-            <div className={styles.recipePic}>
-              <h3>Banoffee Pie</h3>
-            </div>
-            <div className={styles.recipePic}>
-              <h3>Chocolate cupcakes</h3>
+              <h3>pancakes</h3>
+              <Link href="/ComingSoon">
+                <img className="recipeImage" src="pancakes.jpg" alt="Pancakes"/>
+              </Link>
             </div>
           </div>
         </div>
@@ -113,9 +110,21 @@ export default function Home() {
           <h2 className="typeOfRecipes">Healthzone</h2>
           <div className={styles.description}>
             <div className={styles.recipePic}>
-              <h3><Link href="/LentilSoup">Ginger and Turmeric Shots</Link></h3>
-              <Link href="/SweetPotatoMacAndCheese">
+              <h3><Link href="/ComingSoon">Smoothie Bowls</Link></h3>
+              <Link href="/ComingSoon">
+              <img className="recipeImage" src="smoothiebowl2.jpg" alt="Smoothie Bowls" />
+              </Link>
+            </div>
+            <div className={styles.recipePic}>
+              <h3><Link href="/ComingSoon">Ginger and Turmeric Shots</Link></h3>
+              <Link href="/ComingSoon">
               <img className="recipeImage" src="gingershots.jpg" alt="Ginger Shots" />
+              </Link>
+            </div>
+            <div className={styles.recipePic}>
+              <h3><Link href="/ComingSoon">Fruit Basket</Link></h3>
+              <Link href="/ComingSoon">
+              <img className="recipeImage" src="fruitbasket.jpg" alt="Fruit Basket" />
               </Link>
             </div>
           </div>
