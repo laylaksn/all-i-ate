@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import { useState} from 'react';
+import Navbar from "@/components/Navbar";
+
 
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
@@ -26,19 +28,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
       <div>
-          <nav>
-            <ul className="navbarUl">
-              <li className="navbarLi">
-                <Link href="/index" className="navbara"> Home</Link>
-              </li>
-              <li className="navbarLi">
-                <Link href="/AZRecipes" className="navbara" >A-Z Recipes</Link>
-              </li>
-              <li className="navbarLi">
-                <Link href="/gallery" className="navbara" >Gallery</Link>
-              </li>
-            </ul>
-          </nav>
+        <Navbar />
         </div>
         <div>
           <h2 className="recipePageTitle">Biscoff Cheesecake</h2>

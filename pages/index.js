@@ -94,7 +94,7 @@ export default function Home() {
             </div>
             <div className={styles.recipePic}>
               <h3><Link href="/ComingSoon">Root Vegetable Traybake</Link></h3>
-              <Link href="/ComingSoon">
+              <Link href="/RootVegTraybake">
                 <img className="recipeImage" src="rootvegtraybake.jpg"  alt="Root Vegetable Traybake" />
               </Link>
             </div>

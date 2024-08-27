@@ -22,7 +22,7 @@ const Gallery = () => {
     'biscoffcheesecake3.jpg',
     'smoothiebowl2.jpg',
     'fruitbasket.jpg',
-    'millionairesshortbread3'
+    'millionairesshortbread3.jpg',
     // Add more photo URLs here
   ];
 
