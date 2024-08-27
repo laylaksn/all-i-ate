@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from "@/styles/Home.module.css";
+import Navbar from '@/components/Navbar';
 
 const Gallery = () => {
   // list of photos
@@ -28,19 +29,7 @@ const Gallery = () => {
 
   return (
     <div>
-      <nav>
-        <ul className="navbarUl">
-          <li className="navbarLi">
-            <Link href="/index" className="navbara">Home</Link>
-          </li>
-          <li className="navbarLi">
-            <Link href="/AZRecipes" className="navbara">A-Z Recipes</Link>
-          </li>
-          <li className="navbarLi">
-            <Link href="/gallery" className="navbara">Gallery</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar/>
       <div className="gallery">
         {photos.map((photo, index) => (
           <div key={index} className="photo">

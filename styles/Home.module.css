@@ -1,69 +1,60 @@
+/* styles/Home.module.css */
+
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: left;
-  padding: 6rem;
-  min-height: 100vh;
+  align-items: center; /* Center align items horizontally */
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
 }
 
-/*this is the boxes on the homepage */
-.description {
-  border-radius: 10px;
-  overflow-x: auto;
+.contentContainer {
   display: flex;
-  white-space: nowrap;
-  gap: 0px;
-  }
-
-.recipePic {
-  flex: 0 0 30%; /* Each recipe takes up one-third of the available space */
-  display:flex;
-  flex-direction: column;
-  /*justify-content: space-between;*/
-  align-items: center;
-  /*max-width: var(--max-width);*/
-  padding: 0px;
-  overflow: hidden;
-  border-radius: 10px;
+  justify-content: center; /* Center content container horizontally */
+  align-items: center; /* Center items vertically */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* Center content container */
+  gap: 40px; /* Space between the text and slideshow */
 }
 
-.typeOfRecipes {
-  font-size: 12px;
+.textContainer {
+  flex: 1;
+  max-width: 400px; /* Adjust width as needed */
+  text-align: left; /* Align text to the left */
+}
+
+.slideshowContainer {
+  flex: 1;
+  max-width: 500px; /* Adjust width as needed */
   display: flex;
-  align-items: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center; /* Center slideshow within its container */
 }
 
-.recipeContainer {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  white-space: nowrap;
-  gap: 20px;
-  padding: 15px 0;
-  border-top: 1px solid #ccc; /* Add a border to separate it from other content */
+.recipeSummary {
+  margin-top: 10px;
 }
 
-.recipeContainer > div {
-  flex: 0 0 auto;
-  scroll-snap-align: start;
+/* styles/Home.module.css */
+
+/* Other styles remain unchanged... */
+
+.slideshow-container {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  border: 8px solid #ccc; /* Light grey border for the frame */
+  padding: 10px; /* Space between the image and border */
+  background-color: #fff; /* Background color for the frame */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for more emphasis */
+  border-radius: 15px; /* Rounded corners for the frame */
 }
 
-.scroll-left, .scroll-right {
-  padding: 10px;
-  margin: 5px;
-  font-size: 20px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+.slideshow-image {
+  border-radius: 8px; /* Rounded corners for the image */
+  display: block; /* Ensures the image fills the container */
+  width: 100%; /* Makes sure the image fits within the container */
+  object-fit: cover; /* Ensures the image covers the entire area of the container */
 }
 
-.scroll-left {
-  float: left;
-}
-
-.scroll-right {
-  float: right;
-}

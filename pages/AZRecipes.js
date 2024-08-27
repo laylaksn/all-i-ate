@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from 'react';
 import Link from 'next/link';
 import styles from "@/styles/Home.module.css";
+import Navbar from "@/components/Navbar";
 
 const AZRecipes = () => {
   const recipes = [
@@ -28,22 +29,11 @@ const AZRecipes = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main}`}>
+
       <div>
-          <nav>
-            <ul className="navbarUl">
-              <li className="navbarLi">
-                <Link href="/index" className="navbara"> Home</Link>
-              </li>
-              <li className="navbarLi">
-                <Link href="/AZRecipes" className="navbara" >A-Z Recipes</Link>
-              </li>
-              <li className="navbarLi">
-                <Link href="/gallery" className="navbara" >Gallery</Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <Navbar/>
+      </div>
+      <main className={`${styles.main}`}>
         <div>
           <h2 className="recipePageTitle">A-Z Recipes</h2>
           <ul className="numServings">

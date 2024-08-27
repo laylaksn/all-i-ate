@@ -8,7 +8,7 @@ const Navbar = () => (
     <nav>
         <ul className={`navbarUl ${inter.className}`}>
             <li className="navbarLi">
-                <Link href="/index" className="navbara">Home</Link>
+                <Link href="/" className="navbara">Home</Link>
             </li>
             <li className="navbarLi">
                 <Link href="/AZRecipes" className="navbara">A-Z Recipes</Link>
@@ -16,6 +16,10 @@ const Navbar = () => (
             <li className="navbarLi">
                 <Link href="/gallery" className="navbara">Gallery</Link>
             </li>
+            <form className="search-form" action="#" method="get">
+            <input type="text" placeholder="Ingredient, keyword..." />
+            <button type="submit">Search</button>
+          </form>
         </ul>
     </nav>
 );
