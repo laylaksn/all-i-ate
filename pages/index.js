@@ -25,7 +25,9 @@ export default function Home() {
         <div className={styles.contentContainer}>
           <div className={styles.textContainer}>
             <h1 className="someHeading">All I Ate</h1>
-            <p className="recipeSummary">Sharing all our fave recipes...</p>
+            <p className="recipeSummary">This is our spot to keep track of family favourites and all the recipes we have loved making (and eating). These are the go-to dishes that have been a hit at our table. We hope you find something here to enjoy, too!
+
+</p>
           </div>
           <div className={styles.slideshowContainer}>
             <Slideshow />
